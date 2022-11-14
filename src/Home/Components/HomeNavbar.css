@@ -1,0 +1,32 @@
+.navbar__profile {
+    background-color: white;
+    box-shadow: 2px 2px 4px grey;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    bottom: 0 !important;
+}
+
+#homeNavbar .inner__nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbar__profile div {
+    padding: .5rem;
+    border-radius: 35%;
+    cursor: pointer;
+    max-width: 17rem;
+}
+
+.active__nav {
+    background-color: #999;
+}
+
+.navbar__profile img{
+    width: 20px;
+    height: 20px;
+}

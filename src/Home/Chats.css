@@ -1,0 +1,59 @@
+#userChat img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid gainsboro;
+}
+
+#chats Col {
+    border: 2px solid black;
+}
+
+#chats .col__class {
+    background-color: rgb(235, 235, 235);
+    border: 2px solid gainsboro;
+    border-radius: 10%;
+    margin-bottom: 1rem;
+}
+
+#chats .header__container {
+    background-color: var(--main-color);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 7px black;
+}
+
+#showMatch .phone__container {
+    background-color: crimson;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 9px green;
+}
+
+#showMatch .header__container {
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    color: red;
+}
+
+#showMatch .header__container h3 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#showMatch #pp img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid gainsboro;
+}
+
+#showMatch .match__container {
+    
+}

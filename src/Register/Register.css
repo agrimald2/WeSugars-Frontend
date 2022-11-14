@@ -1,0 +1,141 @@
+:root {
+    --daddy-color: crimson;
+    --baby-color: darkmagenta;
+    --main-color: white;
+}
+
+.title__ {
+    border-bottom: 3px solid var(--main-color);
+}
+
+.title__container {
+    padding-left: 25vw !important;
+    padding-right: 25vw !important;
+}
+
+.form__container {
+    border-radius: 30px;
+    background-color: var(--main-color);
+}
+
+.form__container__normal {
+    border-radius: 30px;
+}
+
+.location__container {
+    width: 100% !important;
+}
+
+.btn__container Button {
+    background-color: var(--main-color);
+    border: none;
+}
+
+.slider-thumb {
+    cursor: grab;
+    border-radius: 50px;
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    
+    box-shadow: 2px 2px 8px #000;
+}
+
+.slider-track {
+    border-radius: 30px;
+    background-color: rgb(190, 190, 190);
+    height: 8px;
+    margin-top:13px;
+}
+
+.img__ball {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: -12px;
+    object-fit: cover;
+}
+
+.options__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.options__ {
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.separator__container {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.separator__ {
+    margin-top: 0.3rem;
+    border-bottom: 3px solid var(--main-color);
+}
+
+.color__main {
+    color: var(--main-color);
+}
+
+.white__button Button {
+    background-color: white;
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
+.round__button Button {
+    border-radius: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button__ Button{
+    background-color: var(--main-color);
+}
+
+.button__large Button{
+    padding-left: 60px;
+    padding-right: 60px;
+    border: none;
+}
+
+.logo__small {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    height: 60px;
+}
+
+.font__small {
+    font-size: small;
+}
+
+.align__justify {
+    text-align: justify;
+}
+
+#registerFinal p, b {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form__container__normal input {
+    border-radius: 15px;
+}
+
+@media (min-width: 720px) {
+    #register_container{
+        width: 50vw;
+        padding: 1rem 1rem;
+        background-color: #f8f9fae3;
+        border-radius: 25px;
+    }
+    .title__container {
+        padding: 0!important;
+    }
+    
+}

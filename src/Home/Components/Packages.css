@@ -1,0 +1,41 @@
+#packages a {
+    text-decoration: none;
+    color: black
+}
+
+#packages ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+#packages li {
+    background-color: ghostwhite;
+    border-radius: 10%;
+}
+
+.fs-7 {
+    font-size: small;
+}
+
+.price {
+    background-color: gainsboro;
+    border-radius: 10%;
+    color: rgb(109, 109, 109);
+}
+
+#packages .grey {
+    color: rgb(109, 109, 109);
+}
+
+#purchase .packages__bg {
+    background-color: rgb(245, 248, 252);
+}
+
+.premium__package {
+    border: 2px solid rgb(128, 22, 150);
+}
+
+.purchase__box {
+    cursor: pointer;
+}
