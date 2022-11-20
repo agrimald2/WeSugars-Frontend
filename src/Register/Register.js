@@ -80,7 +80,7 @@ export default function Register() {
         axios.defaults.xsrfHeaderName = 'x-csrftoken'
         axios.defaults.xsrfCookieName = 'csrftoken'
         axios.defaults.withCredentials = true
-        axios.post('/app/register/userdata/', form).then((s) => onSuccess(s)).catch((err) => onError(err.response.data));
+        axios.post('https://ws-backend.herokuapp.com/app/register/userdata/', form).then((s) => onSuccess(s)).catch((err) => onError(err.response.data));
     }
 
     const handleLocationChange = e => {

@@ -28,7 +28,7 @@ export default function RegisterFinal() {
         axios.defaults.xsrfHeaderName = 'x-csrftoken'
         axios.defaults.xsrfCookieName = 'csrftoken'
         axios.defaults.withCredentials = true
-        axios.post('/app/register/user/', form).then((s) => onSuccess(s));
+        axios.post('https://ws-backend.herokuapp.com/app/register/user/', form).then((s) => onSuccess(s));
     }
   return (
     <div id='registerFinal'>

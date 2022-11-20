@@ -18,7 +18,7 @@ export default function ProfileHeader(props) {
         axios.defaults.xsrfHeaderName = 'x-csrftoken'
         axios.defaults.xsrfCookieName = 'csrftoken'
         axios.defaults.withCredentials = true
-        axios.post('/app/logout/').then(window.location.replace("/"));
+        axios.post('https://ws-backend.herokuapp.com/app/logout/').then(window.location.replace("/"));
     }
 
     useEffectOnce(() => {

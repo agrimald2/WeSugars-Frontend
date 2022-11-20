@@ -36,7 +36,7 @@ export default function Blocks() {
         axios.defaults.xsrfHeaderName = 'x-csrftoken'
         axios.defaults.xsrfCookieName = 'csrftoken'
         axios.defaults.withCredentials = true
-        axios.post('/app/register/block/phone/', form).then((s) => onSuccessPhone(s));
+        axios.post('https://ws-backend.herokuapp.com/app/register/block/phone/', form).then((s) => onSuccessPhone(s));
     }
 
     const submitEmail = e => {
@@ -45,7 +45,7 @@ export default function Blocks() {
         axios.defaults.xsrfHeaderName = 'x-csrftoken'
         axios.defaults.xsrfCookieName = 'csrftoken'
         axios.defaults.withCredentials = true
-        axios.post('/app/register/block/email/', form).then((s) => onSuccessEmail(s));
+        axios.post('https://ws-backend.herokuapp.com/app/register/block/email/', form).then((s) => onSuccessEmail(s));
     }
   return (
     <div id='blocks'>

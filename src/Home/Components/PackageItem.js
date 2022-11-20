@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export default function PackageItem(props) {
   const onClick = e => {
-    axios.post('/app/mercadopago/payment/create/' + props.price_id).then((response) => {
+    axios.post('https://ws-backend.herokuapp.com/app/mercadopago/payment/create/' + props.price_id).then((response) => {
       window.location.replace(response.data);
     }).catch((err) => {
       window.location.reload();

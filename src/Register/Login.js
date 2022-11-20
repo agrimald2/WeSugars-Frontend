@@ -26,7 +26,7 @@ export default function Login() {
         axios.defaults.xsrfHeaderName = 'x-csrftoken'
         axios.defaults.xsrfCookieName = 'csrftoken'
         axios.defaults.withCredentials = true
-        axios.post('/app/login/', form).then((s) => onSuccess(s)).catch((err) => {
+        axios.post('https://ws-backend.herokuapp.com/app/login/', form).then((s) => onSuccess(s)).catch((err) => {
             setError("Combinacion de Usuario y Contraseña no coinciden o el usuario no existe");
         });
     }
